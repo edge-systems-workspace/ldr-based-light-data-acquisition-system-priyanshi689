@@ -35,6 +35,11 @@ void loop() {
 
     Serial.print("LDR Value: ");
     Serial.println(ldrValue);
+    if (ldrValue > 500) {
+        Serial.println("Status: Bright");
+    } else {
+        Serial.println("Status: Dark");
+    }
 
     // TODO 5:
     // Read analog value from LDR
