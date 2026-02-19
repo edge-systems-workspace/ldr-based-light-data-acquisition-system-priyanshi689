@@ -40,6 +40,7 @@ void loop() {
     } else {
         Serial.println("Status: Dark");
     }
+    delay(1000);
 
     // TODO 5:
     // Read analog value from LDR
